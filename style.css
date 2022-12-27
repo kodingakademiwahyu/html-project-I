@@ -1,0 +1,63 @@
+.container {
+    padding: 15px 25px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-family: tahoma; 
+    color: grey;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding: 5px;
+    font-size: 50px;
+}
+
+.text {
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: grey;
+    line-height: 12px;
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+input {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: justify;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container span {
+    font-size: 16px;
+    padding: 20px;
+    padding-right: 70px;
+}
+
+svg {
+    width: 20px;
+    margin: 10px;
+}
