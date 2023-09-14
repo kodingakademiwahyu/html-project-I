@@ -1,41 +1,49 @@
+/* Container Styles */
 .container {
-    padding: 15px 25px;
-    font-size: 22px;
+    padding: 30px;
+    font-size: 18px;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+/* Heading Styles */
 h5 {
-    font-family: tahoma; 
+    font-family: 'Tahoma', sans-serif; 
     color: grey;
     letter-spacing: 3px;
     font-size: 12px;
+    margin: 0;
 }
 
+/* Head Styles */
 .head {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding: 5px;
-    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+/* Text Styles */
 .text {
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 10px;
     color: grey;
-    line-height: 12px;
+    line-height: 1.5;
 }
 
+/* Button Styles */
 button {
     background-color: orangered;
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 20px 0;
+    cursor: pointer;
 }
 
+/* Input Styles */
 input {
     border: none;
     padding: 15px 32px;
@@ -46,18 +54,29 @@ input {
     text-align: justify;
 }
 
+/* Flex Container Styles */
 .flex-container {
     display: flex;
     justify-content: center;
 }
 
+/* Flex Container Span Styles */
 .flex-container span {
     font-size: 16px;
     padding: 20px;
-    padding-right: 70px;
+    padding-right: 40px;
 }
 
-svg {
+/* Image Styles */
+img {
     width: 20px;
-    margin: 10px;
+    margin-right: 10px;
+}
+
+/* Flex Container Image Styles */
+.flex-container img {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
 }
